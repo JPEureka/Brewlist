@@ -1,0 +1,80 @@
+#home-page {
+  background-color: #f3f1d9;
+  margin: 4rem;
+}
+.breweries-list-view {
+  .bx--form-item {
+    margin: 0.5rem 0rem 1rem 0rem;
+  }
+  .bx--data-table-container {
+    margin-top: 1.25rem;
+  }
+  .bx--data-table-header {
+    background-color: darkgray;
+  }
+  .bx--table-header-label {
+    width: max-content;
+  }
+  #filter-groups {
+    margin: 2rem 0rem 1rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    .filter-group {
+      width: calc(100% / 6);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      .bx--text-input-wrapper {
+        width: 95%;
+      }
+      input:disabled {
+        background-color: #ccc;
+      }
+      select:disabled {
+        background-color: #ccc;
+      }
+      .brewery_type_selector {
+        label {
+          display: none;
+        }
+        select {
+          height: 2rem;
+        }
+      }
+    }
+    .bx--btn--primary {
+      height: fit-content;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.brewery-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  button {
+    margin: 1rem 0rem 1rem 0rem;
+    a {
+      color: aliceblue;
+    }
+  }
+  table {
+    width: -webkit-fill-available;
+    margin: 1rem 0rem 1rem 0rem;
+    td {
+      border: 1px solid #333;
+      font-size: 1rem;
+      padding-left: 0.25rem;
+    }
+
+    th {
+      font-size: 1rem;
+    }
+    thead {
+      background-color: #333;
+      color: #fff;
+    }
+  }
+}
