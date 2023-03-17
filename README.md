@@ -1,4 +1,7 @@
-# forFun
+## A Web to show brew list
 
-react play ground# brewlist
-# brewlist
+# Personal side project for practicing
+
+Written in React and Typescript
+
+
